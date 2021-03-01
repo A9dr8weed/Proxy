@@ -5,7 +5,7 @@ namespace Proxy
     /// <summary>
     /// The Proxy class, which can substitute for the Real Subject.
     /// </summary>
-    public class NewServerProxy : IServer
+    public class ServerProxy : IServer
     {
         /// <summary>
         /// Order.

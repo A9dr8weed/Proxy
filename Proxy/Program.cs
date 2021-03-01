@@ -6,7 +6,7 @@ namespace Proxy
     {
         private static void Main()
         {
-            IServer proxy = new NewServerProxy();
+            IServer proxy = new ServerProxy();
 
             // Manage orders from a table.
             Console.WriteLine("What would you like to order? ");

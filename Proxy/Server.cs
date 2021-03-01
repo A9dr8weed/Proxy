@@ -14,7 +14,7 @@ namespace Proxy
 
         public void TakeOrder(string order)
         {
-            Console.WriteLine("Server takes order for " + order + ".");
+            Console.WriteLine($"Server takes order for {order}.");
             Order = order;
         }
 
